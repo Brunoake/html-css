@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+            margin: 0;
+        }
+        header{
+           background-color: #ffff;
+           padding: 10px;
+           margin: 10px;
+           border-radius: 10px;
+
+        }
+
+        nav{
+            background-color: #797979;
+            padding: 3px;
+            box-shadow: 5px 3px 2px rgba(0, 0, 0, 0.444);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: #ffff;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: #acabab;
+        }
+
+        main{
+            background-color: #ffff;
+            padding: 10px;
+           margin: 10px;
+          border-radius: 10px 0px;
+        }
+
+        footer{
+            background-color: black;
+            color: #ffff;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte, politica e tecnologia</p>
+        </section>
+        <section id="noticia">
+
+        </section>
+        <article>
+            <h2>Artigo super importante</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, praesentium corrupti! Doloribus pariatur vitae sed tempora repellendus temporibus voluptas dignissimos, voluptatem quisquam ab fuga beatae necessitatibus, eos error similique quod?</p>
+            <aside>
+                <p>Artigo de louco bandeira</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Bruno</p>
+    </footer>
+    
+</body>
+</html>
