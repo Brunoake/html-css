@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <form action="" method="post" autocomplete="on">
+
+        <p>
+            <label for="ies">estado</label>
+            <select name="est" id="iest">
+                <option value="sp">são paulo</option>
+                <option value="Go">Goias</option>
+                <option value="Mg">minas gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="Rs">Rio grande do Sul</option>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" id="iprof" list="dprof">
+            <datalist id="dprof">
+                <option value="prof">Professor</option>
+                <option value="Dev">Desenvolvedor</option>
+                <option value="moto">Motorista</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem</label> <br>            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="resetar">
+        </p>
+    </form>
+</body>
+</html>
