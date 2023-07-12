@@ -10,17 +10,24 @@
         }
         table{
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
 
         }
         td, th{
             border: 1px solid black;
-            padding: 3px;
+            padding: 10px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #5b5b5b;
         }
          tbody > tr:nth-child(odd){ 
             background-color: gray;
         }
         thead, tfoot{
-            background-color: darkgrey;
+            background-color: #5b5b5b;
             color: #ffff;
         }
         .num{
@@ -174,5 +181,6 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad esse obcaecati debitis eveniet incidunt cumque, expedita magnam dicta, ea, sapiente recusandae praesentium! Dicta reprehenderit, dolores aliquid cupiditate repellendus alias facere.</p>
 </body>
 </html>
